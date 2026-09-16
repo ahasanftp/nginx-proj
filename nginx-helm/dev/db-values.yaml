@@ -3,4 +3,4 @@ valuesFile: nginx-helm/dev/dev-values.yaml
 replicaCount: 1
 service:
   type: ClusterIP
-storageClass: nfs-client
+storageClassName: nfs-client
