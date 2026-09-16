@@ -1,4 +1,5 @@
 env: dev
 valuesFile: nginx-helm/dev/db-values.yaml
 replicaCount: 1
-storageClassName: nfs-client
+persistence: 2
+  storageClass: nfs-client
